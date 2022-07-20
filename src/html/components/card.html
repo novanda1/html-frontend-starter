@@ -3,15 +3,9 @@
     <h4 class="card-title">{{ params.title }}</h4>
     <h5 class="card-subtitle text-muted">{{ params.description }}</h5>
   </div>
-  <img
-    src="{{ params.image }}"
-    class="max-w-100"
-    alt="{{ params.title }}"
-  />
+  <img src="{{ params.image }}" class="max-w-100" alt="{{ params.title }}" />
   <div class="card-body">
-    <p class="card-text">
-      {{ params.body }}
-    </p>
+    <p class="card-text">{{ params.body }}</p>
     <a href="#" class="btn btn-primary">{{ params.btn1 }}</a>
     <a href="#" class="btn">{{ params.btn2 }}</a>
   </div>
