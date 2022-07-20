@@ -1,5 +1,6 @@
 const path = require("path");
 import nunjucks from "vite-plugin-nunjucks";
+import htmlPurge from "vite-plugin-html-purgecss";
 
 export default {
   root: path.resolve(__dirname, "src"),
@@ -13,5 +14,5 @@ export default {
     port: 8080,
     hot: true,
   },
-  plugins: [nunjucks()],
+  plugins: [nunjucks(), htmlPurge()],
 };
