@@ -2,3 +2,8 @@
   rev: v2.3.0
   hooks:
     - id: prettier
+      exclude: |
+        (?x)(
+            ^src\/dist\/assets\/index(.*)\.js|
+            ^src\/dist\/assets\/index(.*)\.css
+        )
