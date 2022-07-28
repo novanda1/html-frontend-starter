@@ -2,6 +2,7 @@ const path = require("path");
 import nunjucks from "vite-plugin-nunjucks";
 import htmlPurge from "vite-plugin-html-purgecss";
 import viteImagemin from "vite-plugin-imagemin";
+import plaiceholder from "./plugins/plaiceholder";
 
 export default {
   root: path.resolve(__dirname, "src"),
@@ -18,6 +19,7 @@ export default {
   plugins: [
     nunjucks(),
     htmlPurge(),
+    plaiceholder(),
     viteImagemin({
       gifsicle: {
         optimizationLevel: 7,

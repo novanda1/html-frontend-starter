@@ -14,8 +14,10 @@
   },
   "devDependencies": {
     "@types/bootstrap": "^5.1.13",
+    "plaiceholder": "^2.4.0",
     "prettier": "^2.7.1",
     "sass": "^1.53.0",
+    "sharp": "^0.30.7",
     "vite": "^3.0.0",
     "vite-plugin-html-purgecss": "^0.1.1",
     "vite-plugin-imagemin": "^0.6.1",
